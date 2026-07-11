@@ -9,7 +9,7 @@
 <div align="center">
 
 <!-- Animated wave banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text={{FULL_NAME_URLSAFE}}&fontSize=42&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc={{PROFESSIONAL_TITLE_URLSAFE}}&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text={{MANVESH SINGH}}&fontSize=42&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc={{PROFESSIONAL_TITLE_URLSAFE}}&descAlignY=58&descSize=18" width="100%"/>
 
 <!-- Typing animation -->
 <a href="https://github.com/{{GITHUB_USERNAME}}">
