@@ -8,6 +8,10 @@
 [![Profile views](https://komarev.com/ghpvc/?username=manvesh12&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)](https://github.com/manvesh12)
 [![Followers](https://img.shields.io/github/followers/manvesh12?style=for-the-badge&color=0891B2&labelColor=0B1220&logo=github)](https://github.com/manvesh12?tab=followers)
 
+<br /><br />
+
+[About](#about) · [Toolkit](#toolkit) · [Projects](#projects) · [GitHub](#github) · [Connect](#connect)
+
 <p>
   <strong>B.Tech CSE · Chandigarh University · Class of 2027</strong><br />
   <sub>Based in Chandigarh, India 🇮🇳</sub>
@@ -15,7 +19,8 @@
 
 </div>
 
-## About me
+<a id="about"></a>
+<img src="./assets/section-about.svg" width="100%" alt="About and direction" />
 
 I am a full-stack developer who enjoys turning complex workflows into simple, reliable digital products. I work across polished user interfaces, APIs, databases, authentication, document automation, and deployment—with a strong focus on practical impact.
 
@@ -28,7 +33,10 @@ const manvesh = {
 };
 ```
 
-## What I work with
+<img src="./assets/focus.svg" width="100%" alt="Currently building Punjab DSR, exploring AI and cloud systems, and open to opportunities" />
+
+<a id="toolkit"></a>
+<img src="./assets/section-stack.svg" width="100%" alt="Engineering toolkit" />
 
 <div align="center">
 
@@ -38,7 +46,8 @@ const manvesh = {
 
 </div>
 
-## Featured work
+<a id="projects"></a>
+<img src="./assets/section-projects.svg" width="100%" alt="Selected products" />
 
 <table>
   <tr>
@@ -81,7 +90,8 @@ const manvesh = {
   </tr>
 </table>
 
-## GitHub snapshot
+<a id="github"></a>
+<img src="./assets/section-stats.svg" width="100%" alt="GitHub in motion" />
 
 <div align="center">
 
@@ -92,9 +102,10 @@ const manvesh = {
 
 </div>
 
-## Let’s build something useful
+<a id="connect"></a>
+<img src="./assets/section-connect.svg" width="100%" alt="Let's connect" />
 
-I am interested in full-stack internships, collaborative product work, and projects that solve real operational problems. The best way to reach me is through GitHub.
+I am interested in full-stack internships, collaborative product work, and projects that solve real operational problems. If that sounds like something you are building, let’s talk.
 
 <div align="center">
 
@@ -103,6 +114,6 @@ I am interested in full-stack internships, collaborative product work, and proje
 
 <br /><br />
 
-<sub>Designed with clarity, built with curiosity.</sub>
+<sub>Designed with clarity · Built with curiosity · Always improving</sub>
 
 </div>
