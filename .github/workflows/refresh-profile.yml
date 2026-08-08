@@ -1,0 +1,43 @@
+name: Refresh profile graphics
+
+# No push trigger: this workflow commits generated SVGs, so a push trigger would
+# immediately run it again on its own commit.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-graphics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Draw GitHub data graphics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit only changed graphics
+        run: |
+          FILES="assets/stats.svg assets/streak.svg assets/langs.svg assets/year.svg assets/hd-*.svg"
+          if [ -z "$(git status --porcelain -- $FILES)" ]; then
+            echo "Profile graphics are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $FILES
+          git commit -m "chore: refresh profile graphics"
+          git push
+
